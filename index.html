@@ -20,8 +20,17 @@
 	</noscript>
 	<meta charset="UTF-8">
 	<title>Nina Carducci, photographe professionnelle à Bordeaux</title>
-	<meta name="description"
-		content="Nina Carducci, photographe professionnelle à Bordeaux, vous propose d'immortaliser un moment, une émotion, une situation, un endroit, ou encore une lumière.">
+	<meta name="description"	content="Nina Carducci, photographe professionnelle à Bordeaux, vous propose d'immortaliser un moment, une émotion, une situation, un endroit, ou encore une lumière.">
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Nina Carducci, photographe professionnelle à Bordeaux" />
+	<meta name="twitter:description" content="Nina Carducci, photographe professionnelle à Bordeaux, vous propose d'immortaliser un moment, une émotion, une situation, un endroit, ou encore une lumière." />
+	<meta name="twitter:image" content="https://p2r3d.github.io/nina-carducci.github.io/assets/images/nina-650.webp" />
+	<!-- Open Graph meta (Facebook, Linkedin) -->
+	<meta property="og:title" content="Nina Carducci, photographe professionnelle à Bordeaux" />
+	<meta property="og:type" content="article" />
+	<meta property="og:description" content="Nina Carducci, photographe professionnelle à Bordeaux, vous propose d'immortaliser un moment, une émotion, une situation, un endroit, ou encore une lumière." />
+	<meta property="og:image" content="https://p2r3d.github.io/nina-carducci.github.io/assets/images/nina-650.webp" />
 </head>
 
 <body>
@@ -235,18 +244,26 @@
 					alt="Appareil photo sur fond sombre" width="420" height="420" />
 			</div>
 		</div>
-	</div>
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script defer src="./assets/maugallery.js"></script>
-	<script defer src="./assets/scripts.js"></script>
-	<script type="application/ld+json">
+		<div itemscope itemtype=”https://schema.org/LocalBusiness”>
+			<span itemprop=”name”>Photographe</span>
+
+			<div itemprop=”address” itemscope itemtype=”https://schema.org/PostalAddress”>
+				<span itemprop=”streetAddress”>68 avenue Alsace-Lorraine</span>
+				<span itemprop=”addressLocality”>Bordeaux</span>,
+				<span itemprop=”postalCode”>33000</span>
+			</div>
+		</div>
+		<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+		<script defer src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script defer src="./assets/maugallery.js"></script>
+		<script defer src="./assets/scripts.js"></script>
+		<script type="application/ld+json">
 	{
 		"@context": "https://schema.org",
-		"@type": ["localBusiness", "ProfessionalService", "Photographer"],
+		"@type": ["localBusiness", "ProfessionalService", "Person"],
 		"name": "Nina Carducci",
-		"image": "./assets/images/nina.webp",
+		"image": "https://p2r3d.github.io/nina-carducci.github.io/assets/images/nina-650.webp",
 		"address": {
 			"@type": "PostalAddress",
 			"streetAddress": "68 avenue Alsace-Lorraine",
