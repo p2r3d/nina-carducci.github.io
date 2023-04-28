@@ -24,7 +24,9 @@
   #services .container {
     align-items: center;
   }
-
+#services .divInfos {
+  align-items: center;
+}
   .service {
     max-width: 90%;
   }
@@ -37,9 +39,5 @@
 
   form {
     width: 100%;
-  }
-
-  .picture {
-    width: 80%;
   }
 }
