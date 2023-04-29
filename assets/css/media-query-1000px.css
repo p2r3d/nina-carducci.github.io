@@ -5,7 +5,7 @@
   }
 
   .picture {
-    width: 50%;
+    flex:1;
   }
 
   .picture.left::before {

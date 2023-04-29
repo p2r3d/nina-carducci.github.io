@@ -1,6 +1,6 @@
 @media all and (max-width: 1180px) {
   .picture {
-    flex: 2;
+    flex:1;
   }
 
   #about,

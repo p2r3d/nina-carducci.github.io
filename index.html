@@ -4,17 +4,18 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap-min.css">
-	<link rel="stylesheet" href="./css/style.css">
-	<link rel="stylesheet" media="all and (max-width: 1180px)" href="./css/media-query-1180px-min.css">
-	<link rel="stylesheet" media="all and (max-width: 1000px)" href="./css/media-query-1000px-min.css">
-	<link rel="stylesheet" media="all and (max-width: 650px)" href="./css/media-query-650px-min.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<!--<link rel="stylesheet" media="all and (max-width: 1180px)" href="./assets/css/media-query-1180px.css">
+	<link rel="stylesheet" media="all and (max-width: 1000px)" href="./assets/css/media-query-1000px.css">
+	<link rel="stylesheet" media="all and (max-width: 650px)" href="./assets/css/media-query-650px.css">
+	-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="preload"
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		as="style" onload="this.onload=null;this.rel='stylesheet'">
-
+	<link rel="icon" type="image/png"  href="./assets/images/favicon.png">
 	<meta charset="UTF-8">
 	<title>Nina Carducci, photographe professionnelle à Bordeaux</title>
 	<meta name="description"
@@ -62,20 +63,20 @@
 				<div class="carousel-item active">
 					<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" class="d-block w-100 h-auto"
 						srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-2048.webp 2048w,./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1440.webp 1440w,./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1024.webp 1024w,./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-650.webp 650w,./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-320.webp 320w"
-						sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)" alt="Photo de Ryoji Iwata sur un passage clouté"
+						sizes="(min-width: 2040px) 920px, calc(94.19vw + 17px)" alt="Photo de Ryoji Iwata sur un passage clouté"
 						width="1920" height="888">
 				</div>
 				<div class="carousel-item">
 					<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100 h-auto"
 						loading="lazy"
 						srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-2048.webp 2048w,./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1700.webp 1700w,./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1440.webp 1440w,./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1024.webp 1024w,./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-650.webp 650w,./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-320.webp 320w"
-						sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)" alt="Concert de Nicholas Green" width="1920"
+						sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"  alt="Concert de Nicholas Green" width="1920"
 						height="888">
 				</div>
 				<div class="carousel-item">
 					<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100 h-auto"
 						loading="lazy"
-						srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-2048.webp 2048w,./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1440.webp 1440w,./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1024.webp 1024w,./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-650.webp 650w,./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-320.webp 320w"
+						srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-2048.webp 650w,./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1440.webp 1440w,./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1024.webp 1024w,./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-650.webp 650w,./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-320.webp 320w"
 						sizes="100vw" alt="Mariage d'Edward Cisneros" width="1920" height="888">
 				</div>
 			</div>
@@ -91,7 +92,7 @@
 			</button>
 		</div>
 	</section>
-	<section id="#about">
+	<section id="about">
 		<div id="about">
 			<div class="picture left">
 				<img src="./assets/images/nina.jpg" loading="lazy"
@@ -231,12 +232,13 @@
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
-	<footer id="contact">
+
+	<section id="contact">
 		<h2 class="title">Contact</h2>
 		<h3>Une question ? Une demande de devis ?</h3>
 		<p> N’hésitez pas à m’écrire ! Je vous répondrai en moins de 24 heures</p>
 		<div class="container">
-			<div class="form-container">			
+			<div class="form-container">
 				<form action="" method="post">
 					<label for="nom">Nom</label>
 					<input type="text" name="nom" id="nom">
@@ -248,35 +250,44 @@
 				</form>
 			</div>
 			<div class="picture right">
-			<img src="./assets/images/camera-320.webp" loading="lazy"
-						srcset="./assets/images/camera-1024.webp 1024w,./assets/images/camera-650.webp 650w,./assets/images/camera-320.webp 320w"
-						sizes="(min-width: 100px) 80vw, 50vw"
-						alt="Appareil photo sur fond sombre" width="300" height="300" />
+				<img src="./assets/images/camera.jpg" loading="lazy"
+					srcset="./assets/images/camera-1024.webp 1024w,./assets/images/camera-650.webp 650w,./assets/images/camera-320.webp 320w"
+					sizes="(min-width: 1700px) 320px, (min-width: 650px) calc(42.86vw - 63px), (min-width: 640px) calc(-200vw + 1538px), calc(47.5vw - 37px)"
+					alt="Appareil photo sur fond sombre" width="300" height="300" />
 			</div>
-		</div>
-		<div class="container divInfos">
-			<div class="colInfos">
-				<h4>Adresse</h4>
-				<div itemprop=”address” itemscope itemtype=”https://schema.org/PostalAddress”>
-					<span itemprop=”streetAddress”>68 avenue Alsace-Lorraine</span>
+		</section>
+		<footer id="footer">
+			<div class="divInfos">
+				<div class="colInfos">
+					<h4>Adresse</h4>
+					<div itemprop=”address” itemscope itemtype=”https://schema.org/PostalAddress”>
+						<span itemprop=”streetAddress”>68 avenue Alsace-Lorraine</span>
+						<br>
+						<span itemprop=”postalCode”>33000</span>
+						<span itemprop=”addressLocality”>Bordeaux</span>
+					</div>
+				</div>
+				<div class="colInfos">
+					<h4>Coordonnées</h4>
+					<span>Téléphone</span>
+					<p itemprop="telephone">05 56 67 78 89</p>
+				</div>
+				<div class="colInfos">
+					<h4>Horaires</h4>
+					<span itemprop="openingHours">Du lundi au vendredi</span>
 					<br>
-					<span itemprop=”postalCode”>33000</span>
-					<span itemprop=”addressLocality”>Bordeaux</span>					
+					<span>de 10h à 19h</span>
+				</div>
+				<div class="colInfos">
+					<h4>Tarifs</h4>
+					<span itemprop="priceCurrency" content="EUR"></span>
+					<span itemprop="price" content="50">Retouche photo : 50€</span><br>
+					<span itemprop="price" content="350">Shooting : 350€</span><br>
+					<span itemprop="price" content="400">Album : 400€</span>
 				</div>
 			</div>
-			<div class="colInfos">
-				<h4>Coordonnées</h4>
-				<span>Téléphone</span>
-				<p itemprop="telephone">05 56 67 78 89</p>
-			</div>
-			<div class="colInfos">
-				<h4>Horaires</h4>
-				<span itemprop="openingHours">Du lundi au vendredi</span>
-				<br>
-				<span>de 10h à 19h</span>
-			</div>
 		</div>
-
+</footer> 
 		<script src="./assets/bootstrap/bootstrap.bundle-min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -301,7 +312,7 @@
 		"priceRange" : "50€ - 400€"
 	}
 	</script>
-	</footer>
+	
 </body>
 
 </html>
