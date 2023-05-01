@@ -27,7 +27,7 @@ body {
 .nav ul {
   display: flex;
   list-style-type: none;
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 0;
 }
 
@@ -115,7 +115,8 @@ body {
 }
 
 .nav-pills .nav-link {
-  color: #000
+  color: #000;
+  cursor:pointer;
 }
 
 .item-column {
@@ -262,6 +263,7 @@ form input {
   border: #868080 solid 1px;
   height: 2.5em;
   margin-bottom: 20px;
+  padding-left: 10px;
 }
 
 form textarea {
@@ -273,6 +275,7 @@ form textarea {
   font-size: 1.2em;
   margin-bottom: 20px;
   resize: none;
+  padding-left: 10px;
 }
 
 input[type="submit"] {
